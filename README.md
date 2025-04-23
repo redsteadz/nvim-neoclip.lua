@@ -37,7 +37,7 @@ Hold on, `neoclip` optionally also supports persistent history between sessions 
     <summary>Using <a href="https://github.com/folke/lazy.nvim">Lazy.nvim</a></summary>
 
 ```lua
-require {
+return {
   "AckslD/nvim-neoclip.lua",
   dependencies = {
     -- you'll need at least one of these
